@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>초코파이에 있는 초코 함유율</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        MathJax = {
+          tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <my-header></my-header>
+    <main-content>
+        <my-article slot="my-article" title="초코파이의 초코 함유율">
+            <h3>학계의 점심</h3>
+            <p>
+                \begin{align}
+                    \textnormal{(초코 함유율)} &= \dfrac{\textnormal{초코}}{\textnormal{초코파이}}\times100 \\
+                    &= \dfrac{\textnormal{(초코)}}{\textnormal{(초코)}\textnormal{파이}}\times100 \\
+                    &= \dfrac{1}{\textnormal{파이}}\times100 \\
+                    &= \dfrac{1}{\pi}\times100 \\
+                    &\approx 32(\%)
+                \end{align}
+            </p>
+            <h3>개인적 연구</h3>
+            <p>
+                \begin{align}
+                    \textnormal{(초코 함유율)} &= \dfrac{\textnormal{CHOCO}}{\textnormal{CHOCOPIE}}\times100 \\
+                    &= \dfrac{1}{\textnormal{PIE}}\times100 \\
+                    &= \dfrac{1}{\textnormal{P}\cdot\textnormal{IE}}\times100
+                \end{align}
+
+                P: 파이에도 소량의 인이 들어 있음
+                <br>
+                IE: Internet Explorer의 점유율과 관련이 있음
+            </p>
+        </my-article>
+    </main-content>
+    <my-footer></my-footer>
+    <script src="components.js"></script>
+</body>
+</html>
