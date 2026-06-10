@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I Gave a Lecture on Physical Computing in My Alma Mater: Part 1"
+title: "How I Gave a Lecture on Physical Computing at My Alma Mater: Part 1"
 ---
 
 ## My Alma Mater
