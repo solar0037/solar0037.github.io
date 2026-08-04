@@ -7,6 +7,8 @@ title: "OSTEP Review: Part 3 (Persistence)"
 
 Ah, another source of headache. I had to study all of part 3 alone, unlike part 1 and 2, since my professor did not address persistence in their OS class. Thankfully, most chapters became easier upon reading it again. Some of the ideas sounded similar to those of memory virtualization. Though where do RAID level numbers come from? Like 0, 1, 4, 5, ... they feel as odd as database normalization form numbers.
 
+Note: I am not reading this whole chapter, and I will focus on projects now on that can help me get a job.
+
 ### Key Concepts
 
 - **Canonical Device**: A canonical device consists of an interface and its internal structure. The OS can control the device by reading and writing these registers: status, command, and data. To improve efficiency, we utilize interrupts and DMA (Direct Memory Access). The OS can interact with the device by using either explicit I/O instructions or memory-mapped I/O. Different types of devices can fit into the OS with the help of device drivers.
@@ -17,8 +19,3 @@ Ah, another source of headache. I had to study all of part 3 alone, unlike part 
 - **Fast File System (FFS)**: Treat the disk like it's a disk. Consider locality and amortization when allocating data on disk.
 - **FSCK (File System Check)**: A Linux tool that scans the entire disk to recover from crashes. Used in early systems, but was very slow due to scanning the whole thing.
 - **Journaling**: An alternative method that writes logs before updating blocks, similar to database transactions. Used in modern systems such as ext3, ext4, XFS and NTFS. It adds a little write overhead to greatly reduce recovery time.
-- **Log-structured File Systems**: RIP (Reading in Process)
-- **Flash-based SSDs (Solid State Drives)**: RIP
-- **Distributed Systems**: Systems are designed to look fine on the outside even if some of the inner machines are down.
-- **Sun's Network File System (NFS)**: RIP
-- **The Andrew File System (AFS)**: RIP
