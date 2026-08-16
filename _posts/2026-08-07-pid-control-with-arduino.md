@@ -17,7 +17,7 @@ PID control is a method to control a plant by comparing the actual output to the
 
 ## Code
 
-Original PID Controller Code: https://microcontrollerslab.com/pid-controller-implementation-using-arduino/
+[Original PID Controller Code](https://microcontrollerslab.com/pid-controller-implementation-using-arduino/)
 
 ```C
 double sensed_output, control_signal;
